@@ -1,0 +1,61 @@
+.form-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.form-heading > * {
+  display: inline;
+}
+
+.form-heading > div {
+  float: right;
+  cursor: pointer;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ff2525;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: red;
+}

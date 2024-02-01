@@ -1,0 +1,12 @@
+.header-container {
+  background-color: black;
+  padding: 0 10px;
+}
+
+.logo-name {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  font-size: 2rem;
+  color: red;
+  cursor: pointer;
+}

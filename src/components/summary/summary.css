@@ -1,0 +1,30 @@
+.summary {
+  display: flex;
+  background-color: bisque;
+  opacity: 0.9;
+}
+
+.summary img {
+  padding: 20px;
+  width: 30vw;
+  height: 80vh;
+}
+
+.summary-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  height: 80vh;
+}
+
+button {
+  padding: 15px;
+  margin: 30px 0 0 0;
+  justify-self: flex-end;
+  background-color: red;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
